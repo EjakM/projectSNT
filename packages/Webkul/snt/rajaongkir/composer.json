@@ -1,0 +1,17 @@
+{
+  "name": "webkul/snt-rajaongkir",
+  "autoload": {
+      "psr-4": {
+          "Webkul\\snt\\rajaongkir\\": "src/"
+      }
+  },
+  "extra": {
+      "laravel": {
+          "providers": [
+             "Webkul\\snt\\rajaongkir\\Providers\\RajaOngkirServiceProvider"
+          ]
+      }
+  },
+  "minimum-stability": "dev",
+    "prefer-stable": true
+}
